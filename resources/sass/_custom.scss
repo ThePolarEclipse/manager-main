@@ -1,0 +1,42 @@
+.company-list{
+    .list-group-item{
+        span{
+            visibility: hidden;
+        }
+
+        &:hover span{
+            visibility: visible;
+        }
+    }
+}
+
+.welcome-cards{
+    .card-img-top{
+        height: 350px;
+    }
+}
+
+.form-bg{
+    background-color: $gray-300;
+}
+
+.toast-success{
+    background-color: $green-600;
+    color: $white;
+    .toast-header{
+        background-color: $green-500;
+        color: $white;
+    }
+    .close{
+        background-color: $green-500;
+        border-color: $green-400;
+        color: $white;
+        &:hover{
+            background-color: $green-400;
+        }
+    }
+}
+
+.img-thumbnail{
+    aspect-ratio: 1;
+}
